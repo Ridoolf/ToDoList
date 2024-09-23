@@ -20,7 +20,7 @@ Este es un proyecto de una aplicación To-Do List creada con **React**. La aplic
 
 El proyecto sigue una estructura simple de carpetas para facilitar el desarrollo y la escalabilidad.
 
-````/src │
+```/src │
 ├── /common
 │ ├── /btnClear
 │ │ ├── BtnClear.js
@@ -31,7 +31,8 @@ El proyecto sigue una estructura simple de carpetas para facilitar el desarrollo
 │ ├── App.js
 ├── index.js
 ├── ToDoList.js
-└── ToDoList.css```
+└── ToDoList.css
+```
 
 - `App.js`: Componente principal que renderiza la aplicación.
 - `ToDoList.js`: Componente que maneja la lógica principal de la lista de tareas.
@@ -52,7 +53,7 @@ Asegúrate de tener instalado **Node.js** y **npm** (Node Package Manager) en tu
 ```bash
 git clone https://github.com/Ridoolf/ToDoList
 
-````
+```
 
 2. Navega al directorio del proyecto:
 
