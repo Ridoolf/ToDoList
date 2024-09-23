@@ -12,9 +12,9 @@ Este es un proyecto de una aplicación To-Do List creada con **React**. La aplic
 
 ## Tecnologías utilizadas
 
-- [React](https://reactjs.org/) - Librería de JavaScript para construir interfaces de usuario.
-- [Material UI Icons](https://mui.com/material-ui/material-icons/) - Conjunto de iconos SVG que facilitan la creación de interfaces con iconografía.
-- HTML5 y CSS3 para el diseño básico de la interfaz de usuario.
+- [React](https://reactjs.org/)
+- [Material UI Icons](https://mui.com/material-ui/material-icons/)
+- HTML y CSS para el diseño básico de la interfaz de usuario.
 
 ## Estructura del Proyecto
 
