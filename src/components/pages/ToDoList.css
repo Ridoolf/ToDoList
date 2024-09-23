@@ -1,0 +1,52 @@
+#inputTask_container form{
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a0a0a32;
+    border: 2px solid #fafafa;
+    border-radius: 50px;
+    margin: 20px auto 0 auto;
+    padding: 15px 25px;
+    width: 35%;
+    min-width: 400px;
+    background-color: #000000a1;
+    input {
+        border: none;
+        outline: none;
+        background: none;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+.addTask_btn{
+    font-weight: bolder;
+    border: 2px solid #fafafa;
+    background: none;
+    color: #fafafa;
+    padding: 10px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.addTask_btn:hover{
+    background-color: #fafafa;
+    color: #500ca4;
+}
+
+#inputTask,
+#inputTask::placeholder{
+    color: #fafafa;
+    font-size: 20px;
+}
+
+#btnClear_container {
+    height: 90px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnClear_container.hidden {
+    visibility: hidden; 
+}

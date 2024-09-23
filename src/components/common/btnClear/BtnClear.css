@@ -1,0 +1,17 @@
+.btn_container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border: 1px solid #fafafa;
+    border-radius: 25px;
+    background: #000000a1;
+    color: #fafafa;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+.btn_container:hover{
+    background: #fafafa;
+    color: #000000;
+    transition: .3s;
+}

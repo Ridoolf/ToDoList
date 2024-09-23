@@ -1,0 +1,9 @@
+#layout{
+    font-family: system-ui;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    background: rgb(140,113,4);
+    background: linear-gradient(90deg, rgba(140,113,4,1) 0%, rgba(80,70,5,1) 0%, rgba(2,36,43,1) 100%);     
+    color: #fafafa;
+}
