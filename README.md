@@ -20,7 +20,18 @@ Este es un proyecto de una aplicación To-Do List creada con **React**. La aplic
 
 El proyecto sigue una estructura simple de carpetas para facilitar el desarrollo y la escalabilidad.
 
-/src │ ├── /common │ ├── /btnClear │ │ ├── BtnClear.js │ │ └── BtnClear.css │ ├── /taskCard │ │ ├── TaskCard.js │ │ └── TaskCard.css │ ├── App.js ├── index.js ├── ToDoList.js └── ToDoList.css
+/src │
+├── /common
+│ ├── /btnClear
+│ │ ├── BtnClear.js
+│ │ └── BtnClear.css
+│ ├── /taskCard
+│ │ ├── TaskCard.js
+│ │ └── TaskCard.css
+│ ├── App.js
+├── index.js
+├── ToDoList.js
+└── ToDoList.css
 
 - `App.js`: Componente principal que renderiza la aplicación.
 - `ToDoList.js`: Componente que maneja la lógica principal de la lista de tareas.
