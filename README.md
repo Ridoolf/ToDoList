@@ -46,7 +46,7 @@ git clone https://github.com/Ridoolf/ToDoList
 2. Navega al directorio del proyecto:
 
 ```bash
-cd to-do-list-react
+cd ToDoList
 
 ```
 
