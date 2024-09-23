@@ -18,7 +18,8 @@ Este es un proyecto de una aplicación To-Do List creada con **React**. La aplic
 
 ## Estructura del Proyecto
 
-```/src
+```
+/src
 ├── /components
 │   ├── /common
 |   |   ├── /btnClear
