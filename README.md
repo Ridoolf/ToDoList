@@ -27,3 +27,39 @@ El proyecto sigue una estructura simple de carpetas para facilitar el desarrollo
 - `TaskCard.js`: Componente que renderiza una tarea individual con opciones para marcar como completada y eliminar.
 - `BtnClear.js`: Componente para eliminar todas las tareas.
 - `LocalStorage`: Persistencia de datos de las tareas.
+
+## Instalación y uso
+
+### Requisitos previos
+
+Asegúrate de tener instalado **Node.js** y **npm** (Node Package Manager) en tu sistema.
+
+### Pasos para la instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/tu-usuario/to-do-list-react.git
+
+```
+
+2. Navega al directorio del proyecto:
+
+```bash
+cd to-do-list-react
+
+```
+
+3. Instala las dependencias necesarias:
+
+```bash
+npm install
+
+```
+
+4. Inicia la aplicación en modo de desarrollo:
+
+```bash
+npm run dev
+
+```
