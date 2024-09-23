@@ -18,27 +18,52 @@ Este es un proyecto de una aplicación To-Do List creada con **React**. La aplic
 
 ## Estructura del Proyecto
 
-El proyecto sigue una estructura simple de carpetas para facilitar el desarrollo y la escalabilidad.
-
-```/src │
-├── /common
-│ ├── /btnClear
-│ │ ├── BtnClear.js
-│ │ └── BtnClear.css
-│ ├── /taskCard
-│ │ ├── TaskCard.js
-│ │ └── TaskCard.css
-│ ├── App.js
-├── index.js
-├── ToDoList.js
-└── ToDoList.css
+```/src
+├── /components
+│   ├── /common
+|   |   ├── /btnClear
+|   |   |   ├── BtnClear.jsx
+|   |   |   └── BtnClear.css
+|   |   └── /taskCard
+|   |       ├── TaskCard.jsx
+|   |       └── TaskCard.css
+│   ├── /layout
+|   |   ├── /footer
+|   |   |   └── Footer.jsx
+|   |   ├── /navbar
+|   |   |   ├── Navbar.jsx
+|   |   |   └── Navbar.css
+|   |   ├── Layout.jsx
+|   |   └── Layout.css
+│   └── /pages
+|       ├── ToDoList.jsx
+|       └── ToDoList.css
+├── App.jsx
+├── index.css
+└── main.jsx
 ```
 
-- `App.js`: Componente principal que renderiza la aplicación.
-- `ToDoList.js`: Componente que maneja la lógica principal de la lista de tareas.
-- `TaskCard.js`: Componente que renderiza una tarea individual con opciones para marcar como completada y eliminar.
-- `BtnClear.js`: Componente para eliminar todas las tareas.
-- `LocalStorage`: Persistencia de datos de las tareas.
+-`App.jsx`: Componente principal que organiza y renderiza la aplicación. Se encarga de gestionar la navegación entre diferentes páginas o secciones si es necesario.
+
+-`ToDoList.jsx`: Componente que maneja la lógica principal de la lista de tareas. Se encarga de añadir, eliminar y marcar tareas como completadas, gestionando el estado global de la lista.
+
+-`TaskCard.jsx`: Componente que representa una tarea individual. Muestra los detalles de la tarea y proporciona opciones para marcarla como completada o eliminarla.
+
+-`BtnClear.jsx`: Componente que permite eliminar todas las tareas de la lista con un solo clic. Generalmente se muestra solo cuando hay mas de 2 tareas por eliminar.
+
+-`Layout.jsx`: Componente encargado de organizar el diseño principal de la aplicación. Integra el footery y el navbar al main de la pagina
+
+-`Navbar.jsx`: Componente permitiendo la navegación entre las diferentes páginas o secciones. En este caso solo posee un titulo
+
+-`Footer.jsx`: Componente que renderiza el pie de página.
+
+-`LocalStorage`: Sistema de persistencia utilizado para guardar las tareas localmente en el navegador. Permite que las tareas se mantengan incluso después de cerrar la aplicación o recargar la página.
+
+-`index.css`: Archivo principal de estilos que define las reglas generales para toda la aplicación.
+
+-`main.jsx`: Archivo que inicializa y monta la aplicación en el DOM.
+
+Esta organización está diseñada para facilitar la escalabilidad del proyecto, permitiendo añadir o modificar componentes de forma ordenada
 
 ## Instalación y uso
 
