@@ -39,7 +39,7 @@ Asegúrate de tener instalado **Node.js** y **npm** (Node Package Manager) en tu
 1. Clona este repositorio:
 
 ```bash
-git clone https://github.com/tu-usuario/to-do-list-react.git
+git clone https://github.com/Ridoolf/ToDoList
 
 ```
 
